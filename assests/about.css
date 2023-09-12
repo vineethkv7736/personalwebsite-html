@@ -1,0 +1,69 @@
+.aboutheading
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+
+}
+.underlineabout
+{
+    width: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    height: 16px;
+}
+#heading
+{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    font-family: Courier;
+}
+#aboutcontentid
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 2rem;
+    
+}
+#avatar
+{
+    width: 30%;
+    height: 50%;
+    border-radius: 50%!important;
+}
+.footerabout
+{
+    position: relative!important;
+}
+.box
+{
+    text-align: center;
+    color: white;
+   background-color: rgb(97, 101, 105);
+   padding: 20px; /* Add padding for better spacing */
+   border-radius: 10px; /* Rounded corners for the box */
+   box-shadow: 0 0 10px rgba(54, 53, 53, 0.3); /* Add a subtle shadow effect */
+   margin: 20px; /* Add margin for spacing between elements */
+   font-size: 18px; border: 2px solid lightblue;
+   
+}
+.skills
+{
+    position: relative;
+}
+.aboutmain
+{
+ position: relative;
+}
+@media(max-width:580px)
+{
+.customabout
+{
+    display: flex!important;
+    flex-direction: column-reverse!important;
+    justify-content: space-around!important;
+}
+
+}

@@ -1,0 +1,103 @@
+body {
+  background-image: url(images/165502-pattern-azure-mesh-purple-grey-x750.jpg)!important;
+  
+            
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+ .bibi-github
+ {
+    padding-right: 20px !important;
+ }
+#navbar
+{
+  background-color: #1e1e31 !important;
+  
+}
+.nav-link
+{
+  color: white !important;
+}
+.nav-link:hover
+{
+  background-color: black;
+}
+.dropdown-menu
+{
+  background-color: #d3d3d3 !important;
+  opacity: 100%;
+}
+.footer
+{
+  
+  height: 14%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#footerleft
+{
+ color: rgb(108, 171, 223);
+ font-family: 'Times New Roman', Times, serif;
+ padding-top: 0.5%;
+ font-size: 20%;
+}
+#footermid
+{
+  color: rgb(108, 171, 223);
+ font-family: 'Times New Roman', Times, serif;
+ padding-top: 0.5%;
+ font-size: 20%;
+}
+#footerright
+{
+  color: rgb(108, 171, 223);
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 0.5%;
+  font-size: 20%;
+}
+#github
+{
+  margin-right: 5%;
+  transition: transform 0.3s ease;
+  color: rgb(108, 171, 223);
+}
+#linked
+{
+  margin-right: 5%;
+  transition: transform 0.3s ease;
+  color: rgb(108, 171, 223);
+}
+#insta
+{
+  margin-right: 5%;
+  transition: transform 0.3s ease;
+  color: rgb(108, 171, 223);
+}
+#whatsapp
+{
+  margin-right: 5%;
+  transition: transform 0.3s ease;
+  color: rgb(108, 171, 223);
+}
+#github:hover 
+{
+  cursor: pointer;
+  transform: scale(1.5);
+}
+#linked:hover 
+{
+  cursor: pointer;
+  transform: scale(1.5);
+}#insta:hover 
+{
+  cursor: pointer;
+  transform: scale(1.5);
+}#whatsapp:hover 
+{
+  cursor: pointer;
+  transform: scale(1.5);
+}

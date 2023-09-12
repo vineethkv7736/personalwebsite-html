@@ -1,0 +1,64 @@
+.maintext
+{
+  padding: 5rem;
+ 
+  position: relative;
+  
+}
+.textabove
+{
+}
+#textContainer 
+{
+  position: relative;
+}
+
+#text2
+{
+  color: rgb(108, 171, 223);
+  font-size:2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+#text1a
+{
+  color: rgb(199, 195, 195);
+  font-size:2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+#text1b
+{
+  color: rgb(199, 195, 195);
+  font-size:2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#cursor {
+  font-size: 20px; /* Adjust the font size as needed */
+  color:white; /* Adjust the cursor color */
+  animation: blink 0.7s infinite; /* Blinking animation */
+  display:inline-block;
+  margin-left:-3px;
+  width: 10px;
+  background-color:white;
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media(max-width:490px)
+{
+  .maintext .belowmain
+{
+  padding: 2rem;
+}
+
+}
